@@ -15,6 +15,8 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <Providers>
       <Header />
+      {/*
+      // @ts-ignore */}
         <Component {...pageProps} />
     </Providers>
   );
