@@ -6,7 +6,7 @@ import ReactShadow from "react-shadow/emotion";
 
 
 export function CandyMachine() {
-    const candyMachineId = "SkLFh8aHPEtWg9uFNwp2JzcXQiQVy7Femonah3xQwXs";
+    const candyMachineId = "BC6vxeL1YaRbsMcbYsBxnVxKPUWPTWWHJztk5Jw5AYY8";
     const { setVisible } = useWalletModal();
     const candyMachineIdPubkey = usePublicKey(candyMachineId);
 
